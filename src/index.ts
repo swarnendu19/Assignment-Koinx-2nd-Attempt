@@ -1,16 +1,17 @@
-import { app } from "./app"
-import connectDB from "./db/db"
-import dotenv from "dotenv"
+import dotenv from "dotenv";
+import  connectDB  from "./db/db";
+import {app} from "./app";
+import { startCronJobs } from "./services/cronScheduler";
 
-dotenv.config({path: './.env'})
+dotenv.config();
 
+const PORT = process.env.PORT || 8000;
 
-connectDB()
-.then(()=>{
-    app.listen(process.env.PORT || 8000,()=>{
-        console.log(`Server is runnning on port ${process.env.PORT}`);
-    })
-})
-.catch((err)=>{
-    console.log("Mongo DB Connection failed !!",err);
-})
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log(`Server is running on port ${PORT}`);
+        startCronJobs();
+    });
+}).catch((err:any) => {
+    console.error("Failed to connect to MongoDB:", err);
+});

@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 //Main routes of the app
-import transactionRouter from "./routes/transactions.route"
-app.use("/api/v1", transactionRouter)
+import priecRouter from "./routes/price.route"
+app.use("/api/v1", priecRouter)
 
 export {app};

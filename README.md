@@ -100,6 +100,12 @@ Implement a background job that fetches the following data for three cryptocurre
 
 This background job will run once every 2 hours and store the data in the database.
 
+### Example Request
+
+```http
+GET /api/v1//crypto-prices
+```
+
 # Task 2: Fetch Cryptocurrency Stats
 
 This task involves building an API that returns the latest price, market cap, and 24-hour price change of a requested cryptocurrency.

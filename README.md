@@ -89,7 +89,18 @@ To run this project, ensure you have the following installed:
 
 ## Tasks
 
-# Task 1: Fetch Cryptocurrency Stats
+## Task 1: Background Job to Fetch Cryptocurrency Stats
+
+### Objective
+Implement a background job that fetches the following data for three cryptocurrencies: Bitcoin, Matic, and Ethereum:
+
+- **Current Price in USD**
+- **Market Cap in USD**
+- **24-hour Price Change**
+
+This background job will run once every 2 hours and store the data in the database.
+
+# Task 2: Fetch Cryptocurrency Stats
 
 This task involves building an API that returns the latest price, market cap, and 24-hour price change of a requested cryptocurrency.
 

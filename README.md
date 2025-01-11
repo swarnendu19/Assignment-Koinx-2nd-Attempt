@@ -25,8 +25,9 @@ Task 2 API = http://ec2-16-171-162-206.eu-north-1.compute.amazonaws.com:5000/api
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
 - [Tasks](#tasks)
-  - [Task 1: Fetch Cryptocurrency Stats](#task-1-fetch-cryptocurrency-stats)
-  - [Task 2: Calculate Price Deviation](#task-2-calculate-price-deviation)
+  - [Task 1: Fetch Cryptocurrency Stats](#task-1-fetch-cryptocurrency-prices)
+  - [Task 2: Fetch Cryptocurrency Stats](#task-2-fetch-cryptocurrency-stats)
+  - [Task 4: Calculate Price Deviation](#task-3-calculate-price-deviation)
 
 ## Tech Stack
 
@@ -89,7 +90,7 @@ To run this project, ensure you have the following installed:
 
 ## Tasks
 
-## Task 1: Background Job to Fetch Cryptocurrency Stats
+##  Task 1: Fetch Cryptocurrency Prices
 
 ### Objective
 Implement a background job that fetches the following data for three cryptocurrencies: Bitcoin, Matic, and Ethereum:
@@ -100,6 +101,15 @@ Implement a background job that fetches the following data for three cryptocurre
 
 This background job will run once every 2 hours and store the data in the database.
 
+### Steps to Implement
+
+1. **Install Required Dependencies**
+
+First, make sure that the necessary dependencies are installed. Run the following commands in your project directory:
+
+```bash
+npm install axios node-cron mongoose dotenv
+```
 ### Example Request
 
 ```http
@@ -134,7 +144,7 @@ GET /api/v1/stats?coin=bitcoin
 }
 ```
 
-# Task 2: Calculate Price Deviation
+# Task 3: Calculate Price Deviation
 
 This task involves calculating the standard deviation of the price of a given cryptocurrency for the last 100 records stored in the database.
 

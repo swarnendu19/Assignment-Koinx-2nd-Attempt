@@ -25,7 +25,7 @@ Task 2 API = http://ec2-16-171-162-206.eu-north-1.compute.amazonaws.com:5000/api
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
 - [Tasks](#tasks)
-  - [Task 1: Fetch Cryptocurrency Stats](#task-1-fetch-cryptocurrency-prices)
+  - [Task 1: Fetch Cryptocurrency Prices](#task-1-fetch-cryptocurrency-prices)
   - [Task 2: Fetch Cryptocurrency Stats](#task-2-fetch-cryptocurrency-stats)
   - [Task 4: Calculate Price Deviation](#task-3-calculate-price-deviation)
 

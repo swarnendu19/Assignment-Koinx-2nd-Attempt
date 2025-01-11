@@ -7,10 +7,16 @@ This project is a Node.js application that provides APIs for fetching cryptocurr
 I am deploying the application on AWS.
 Please contact me for that on my [LinkedIn](https://www.linkedin.com/in/swarnendu19)
 
+For testing my API, I deployed on Render--
+```
+https://assignment-koinx-2nd-attempt.onrender.com/
+```
+
 ### Test API
 ```
-Task 1 API = http://localhost:5000/api/v1/stats?coin=bitcoin
-Task 2 API = http://localhost:5000/api/v1/deviation?coin=bitcoin
+Task 1 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1//crypto-prices
+Task 2 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1/stats?coin=bitcoin
+Task 3 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1/deviation?coin=bitcoin
 ```
 
 ## Table of Contents

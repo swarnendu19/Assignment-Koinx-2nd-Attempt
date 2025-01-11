@@ -2,6 +2,8 @@
 
 This project is a Node.js application that provides APIs for fetching cryptocurrency data like prices, market cap, 24-hour price change, and calculating the standard deviation of price for a given cryptocurrency. The data is fetched periodically using external APIs, and stored in a database for easy access.
 
+My First Attempt Assignment for Koinx:- [Assignment-Koinx](https://github.com/swarnendu19/Assignment-Koinx)
+
 ## Public API on AWS 
  
 I am deploying the application on AWS.
@@ -14,7 +16,7 @@ https://assignment-koinx-2nd-attempt.onrender.com/
 
 ### Test API
 ```
-Task 1 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1//crypto-prices
+Task 1 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1/crypto-prices
 Task 2 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1/stats?coin=bitcoin
 Task 3 API = https://assignment-koinx-2nd-attempt.onrender.com/api/v1/deviation?coin=bitcoin
 ```

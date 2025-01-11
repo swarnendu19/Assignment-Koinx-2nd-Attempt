@@ -103,7 +103,7 @@ This background job will run once every 2 hours and store the data in the databa
 ### Example Request
 
 ```http
-GET /api/v1//crypto-prices
+GET /api/v1/crypto-prices
 ```
 
 # Task 2: Fetch Cryptocurrency Stats

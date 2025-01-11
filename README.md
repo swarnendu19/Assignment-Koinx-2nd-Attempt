@@ -40,15 +40,15 @@ To run this project, ensure you have the following installed:
 
 ### Optional Task added
 - [Docker](https://www.docker.com/) for containerization
-- [AWS](https://aws.amazon.com/) for deployment
+- [Render](https://www.render.com/) for deployment
 
 ## Setup
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/Assignment-Koinx.git
-    cd Assignment-Koinx
+    git clone https://github.com/yourusername/Assignment-Koinx-2nd-Attempt
+    cd Assignment-Koinx-2nd-Attempt
     ```
 
 2. **Install dependencies:**
@@ -65,7 +65,6 @@ To run this project, ensure you have the following installed:
     MONGODB_URL = mongodb+srv://swarnendu19:Swarnendu2003@assignment-koinx.yerb5.mongodb.net/?retryWrites=true&w=majority&appName=Assignment-Koinx
     COINGECKO_API_KEY = your api key
     PORT = 5000
-    REDIS_URI =redis://localhost:6379
     ```
 
 4. **Start the server:**

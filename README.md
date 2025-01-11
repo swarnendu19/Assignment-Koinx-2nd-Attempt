@@ -3,21 +3,14 @@
 This project is a Node.js application that provides APIs for fetching cryptocurrency data like prices, market cap, 24-hour price change, and calculating the standard deviation of price for a given cryptocurrency. The data is fetched periodically using external APIs, and stored in a database for easy access.
 
 ## Public API on AWS 
-```
-http://ec2-16-171-162-206.eu-north-1.compute.amazonaws.com:5000/
-```
-or 
-```
-http://16.171.162.206:5000/
-```
-
-*If these links are not working, it means I have stopped the EC2 AWS instance due to billing issues.*  
+ 
+I am deploying the application on AWS.
 Please contact me for that on my [LinkedIn](https://www.linkedin.com/in/swarnendu19)
 
 ### Test API
 ```
-Task 1 API = http://ec2-16-171-162-206.eu-north-1.compute.amazonaws.com:5000/api/v1/stats?coin=bitcoin
-Task 2 API = http://ec2-16-171-162-206.eu-north-1.compute.amazonaws.com:5000/api/v1/deviation?coin=bitcoin
+Task 1 API = http://localhost:5000/api/v1/stats?coin=bitcoin
+Task 2 API = http://localhost:5000/api/v1/deviation?coin=bitcoin
 ```
 
 ## Table of Contents
